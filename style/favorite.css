@@ -1,0 +1,56 @@
+.navbar-container{
+    background-color: #14181c;
+    padding: 0;
+}
+
+main{
+    padding: 5% ;
+    padding-right: 2%;
+    margin-top: 3%;
+}
+
+/* ============================= */
+/*   HERO STYLING */
+/* ============================= */
+
+.hero{
+    max-width: 46%;
+}
+
+.hero-title{
+    font-family:"TiemposHeadline-Bold";
+    font-size: 48px;
+    font-weight: 700;
+    color: #f8f8f2;
+    line-height: 48px;
+    letter-spacing: -1.2px;
+}
+
+.hero-text{
+    max-width: 80%;
+    font-family: "Tiempos Text Regular";
+    font-size: 16px;
+    font-weight: 400;
+    color: #99aabb;
+    line-height: 25px;
+    letter-spacing: 0;
+}
+
+/* ============================= */
+/*   HERO STYLING */
+/* ============================= */
+
+.phrase{
+    font-family: "Tiempos Text Regular";
+    font-size: 36px;
+    font-weight: 500;
+    color: #f4c542;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 5%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 2px 2px 8px rgba(255, 204, 0, 0.3); 
+}

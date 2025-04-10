@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CineMood-Romantic</title>
+        <!-- window logo-->
+        <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+        <!-- css links -->
+        <link rel="stylesheet" href="style/style.css"> <!--global-->
+        <link rel="stylesheet" href="style/feel.css">
+        <!-- font awesome for icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" />
+        <!-- fonts -->
+        <link href="https://db.onlinewebfonts.com/c/105007d99d9df64c50cc24d696d79555?family=Graphik+Web+Regular+Regular" rel="stylesheet">
+        <link href="https://db.onlinewebfonts.com/c/02fb003368979ba04752e4f3b4c4cebd?family=Graphik+Web+Semibold+Regular" rel="stylesheet">
+        <link href="https://db.onlinewebfonts.com/c/171d30888ae4dbce3d0224490887fb87?family=TiemposHeadline-Bold" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- navbar with logo, title, links and button -->
+         <header>
+            <nav class="navbar">
+                <div class="navbar-container">
+                    <img src="images/logo.png" alt="logo" class="icon">
+                    <h1 class="navbar-icon">CineMood</h1>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="choice.html">Mood Selection</a></li>
+                        <li><a href="favorite.html">Favorites</a></li>
+                        <li><a href="movies.html">Movies</a></li>
+                        <li><a href="#"><label for="sign-toggle">Sign In</label></a></li> 
+                        <li><label for="popup-toggle" class="navbar-button">Get Started</label></li>  
+                    </ul>
+                </div>  
+            </nav>
+         </header>
+        
+         <!-- sign up -->
+        <input type="checkbox" id="popup-toggle" class="popup-toggle" hidden>
+        <div id="signup" class="popup">
+            <div class="popup-content">
+                <span>
+                    <h2>Join CineMood</h2>
+                    <label for="popup-toggle" class="close"><img src="images/close.svg" alt="close"></label>
+                </span>
+                <form>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" required>
+
+                    <label for="username">Username</label>
+                    <input type="text" id="username" required>
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required>
+
+                    <label for="password">Confirm Password</label>
+                    <input type="password" id="confirm" required>
+                    
+                    <button type="submit" class="signup-btn">Sign Up</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- sign in -->
+        <input type="checkbox" id="sign-toggle" class="popup-toggle" hidden>
+        <div id="signin" class="popup">
+            <div class="popup-content">
+                <span>
+                    <h2>Your Account</h2>
+                    <label for="sign-toggle" class="close"><img src="images/close.svg" alt="close"></label>
+                </span>
+                <form>
+                    <label for="username">Username</label>
+                    <input type="text" id="username" required>
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required>
+                    
+                    <button type="submit" class="signup-btn">Sign In</button>
+                </form>
+            </div>
+        </div>
+
+        <main>
+
+            <div class="movie-container">
+                <div class="mood-header" id="romance">
+                    <div class="mood">
+                        <span>Mood</span>
+                        <img src="images/romantic.png" alt="happy">
+                        <span>Romantic</span>
+                    </div>
+                    <div class="mood-btn">
+                        <a href="choice.html">
+                            <img src="images/mood.png" alt="mood"> 
+                            Change mood
+                        </a>
+                    </div>   
+                </div>
+
+                <div class="trailer">
+                    <iframe src="https://www.youtube.com/embed/4RI0QvaGoiI?si=YEoVT0rABXiT8B_u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="movie-details">
+                    
+                    <div class="title-container">
+                        <h2>Notting Hill</h2>
+                        <div class="movie-btns">
+                            <div class="dialog">
+                                <img src="images/heart.svg" alt="favorite" class="heart">
+                                <span class="dialog-text">Add to Favorites</span>
+                            </div>
+                        
+                            <div class="dialog">
+                                <img src="images/bookmark.svg" alt="watch" class="book">
+                                <span class="dialog-text">Add to Watchlist</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="movie-info">1999 · 2h 4min · ⭐ 7.2/10</p>
+                    <div class="tags">
+                        <span class="tag">Drama</span>
+                        <span class="tag">Comedy</span>
+                        <span class="tag">Romance</span> 
+                    </div>
+
+                    <p class="movie-description">
+                        William Thacker is a London bookstore owner whose humdrum existence is thrown into romantic turmoil when famous American actress Anna Scott appears in his shop. 
+                        A chance encounter over spilled orange juice leads to a kiss that blossoms into a full-blown affair. 
+                        As the average bloke and glamorous movie star draw closer and closer together, they struggle to reconcile their radically different lifestyles in the name of love.
+                    </p>
+
+                    <div class="change">
+                        <a href="#">
+                            <img src="images/dice.png" alt=""> 
+                            <span>Another movie</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+
+
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">CineMood</h3>
+                    <p>CineMood is your ultimate movie guide based on emotions</p>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-media">
+                    <ul>
+                        <li><a href="#"><img src="images/facebook.svg" alt="facebook" class="footer-icon"></a></li>
+                        <li><a href="#"><img src="images/instagram.svg" alt="instagram" class="footer-icon"></a></li>
+                        <li><a href="#"><img src="images/twitter-alt.svg" alt="x" class="footer-icon"></a></li>
+                        <li><a href="#"><img src="images/tik-tok.svg" alt="tiktok" class="footer-icon"></a></li>
+                        <li><a href="#"><img src="images/youtube.svg" alt="youtube" class="footer-icon"></a></li>
+                    </ul>
+                </div>
+            </div>    
+        </footer>
+    </body>
+
+</html>

@@ -1,0 +1,223 @@
+.navbar-container{
+    background-color: #14181c;
+    padding: 0;
+}
+
+main{
+    padding: 5% ;
+    padding-right: 2%;
+    margin-top: 3%;
+}
+
+/* ============================= */
+/*   HERO STYLING */
+/* ============================= */
+
+.hero{
+    max-width: 46%;
+}
+
+.hero-title{
+    font-family:"TiemposHeadline-Bold";
+    font-size: 48px;
+    font-weight: 700;
+    color: #f8f8f2;
+    line-height: 48px;
+    letter-spacing: -1.2px;
+}
+
+.hero-text{
+    max-width: 80%;
+    font-family: "Tiempos Text Regular";
+    font-size: 16px;
+    font-weight: 400;
+    color: #99aabb;
+    line-height: 25px;
+    letter-spacing: 0;
+}
+
+.hero-btn{
+    background-color: #00b3ff;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+    display: inline-flex; 
+    width: 35%;
+}
+
+.hero-btn img{
+    width: 15%;
+}
+
+.hero-btn a{
+    font-family: "Tiempos Text Regular";
+    font-size: 18px;
+    font-weight: 600;
+    color: #f8f8f2;
+    line-height: 25px;
+    letter-spacing: 0;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.hero-btn:hover{
+    background-color: #00a3ff;
+    transform: scale(1.05);
+}
+
+/* ============================= */
+/*   SUGGEST STYLING */
+/* ============================= */
+
+.movies-section{
+    margin-top: 5%;
+}
+
+.movies-container{
+    display: inline-flex;
+    margin-bottom: 3%;
+    
+}
+
+.feelings{
+    max-width: 25%;
+}
+
+.feelings h2{
+    font-family:"TiemposHeadline-Bold";
+    font-size: 24px;
+    font-weight: 500;
+    color: #f8f8f2;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+}
+
+.feelings p{
+    font-family: "Tiempos Text Regular";
+    font-size: 14px;
+    font-weight: 400;
+    color: #99aabb;
+    line-height: 25px;
+    letter-spacing: 0;
+}
+
+.feelings button{
+    font-family: "Tiempos Text Regular";
+    font-size: 18px;
+    font-weight: 600;
+    color: #f8f8f2;
+    line-height: 25px;
+    letter-spacing: 0;
+    background-color: #00b3ff;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.feelings button:hover{
+    background-color: #00a3ff;
+    transform: translateX(5px);
+}
+
+.movies-suggest{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    margin-left: 2%;
+}
+
+.movie-card{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.movie-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.movie-content img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    z-index: 0;
+    transition: transform 0.3s ease;
+}
+
+.movie-title, .movie-score {
+    position: absolute;
+    color: #ffffff;
+    z-index: 10;
+    left: 10px;
+}
+
+.movie-title {
+    top: -15px;
+    font-family: "TiemposHeadline-Bold";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29px;;
+    max-width: 80%;
+}
+
+.movie-score {
+    left: 87%;
+    top: -25px;
+    font-family: "TiemposHeadline-Bold";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    background-color: #fe2603;
+    padding: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.movie-description {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.8px;
+    margin-bottom: 10px;
+    max-width: 80%;
+    font-family:"Graphik Web Regular Regular";
+}
+
+.watch-btn {
+    display: inline-block;
+    padding: 8px 12px;
+    color: white;
+    background: #ff4500;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.watch-btn:hover {
+    background: #ff6347;
+}
+
+.movie-card:hover .overlay {
+    opacity: 1;
+}

@@ -1,0 +1,343 @@
+/* ============================= */
+/*   HERO SECTION STYLING */
+/* ============================= */
+
+.hero-section {
+    background: url('C:/Users/Sarra/Desktop/L2/semester2/dev web/projet/images/backimg.jpg') no-repeat center center/cover;
+    height: 100vh;  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+/* pour avoir l effet sombre de l image en backgound */
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);  /* semi transparent */
+}
+
+.hero-text{
+    position: relative;
+    z-index: 1000;
+}
+.hero-text h1{
+    font-family:"TiemposHeadline-Bold";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 48px;
+    letter-spacing: 0;
+}
+
+.hero-text p {
+    font-size: 20px;
+    max-width: 500px;
+    margin-top: 10px;
+    color: #d0d7e3;
+    line-height: 25.5px;
+    font-family:"Graphik Web Semibold Regular";
+    letter-spacing: 0;
+    font-weight: 400;
+    margin-left: 50px;
+}
+
+.hero-button {
+    background-color: #00b3ff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-color: #00b3ff;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-button a{
+    color: #ffffff;
+    font-size: 18px;
+    font-family:"Graphik Web Semibold Regular";
+    text-decoration: none;
+}
+
+.hero-button:hover {
+    background-color: #008ecc;
+    border-color: #008ecc;
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+/* ============================= */
+/*   MOVIE SECTION STYLING */
+/* ============================= */
+
+.movie-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    width: 100%;
+    gap: 10px;
+}
+
+.movie-card {
+    position: relative;
+    width: 180px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.movie-card .movie-title {
+    position: absolute;
+    top: -55px;
+    left: 50%;
+    transform: translate(-50%, -10px);
+    font-family: "Graphik Web Regular Regular";
+    font-size: 11px;
+    font-weight: 700;
+    color: #bbccdd;
+    line-height: 14.3px;
+    letter-spacing: 0;
+    background-color: #445566;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+    width: 80%;
+    
+}
+
+/* ajouter le triangle en dessous */
+.movie-card .movie-title::after {
+    content: "";
+    position: absolute;
+    bottom: -15px; 
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 10px;
+    border-style: solid ;
+    border-color:  #445566 transparent transparent transparent; /* Create the triangle */
+}
+
+.movie-card img{
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+}
+
+.movie-overview {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px 10px;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.movie-overview .icon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.fa-eye{
+    color: #00c030;
+}
+
+.fa-heart{
+    color: #ff9010;
+}
+
+.movie-overview .icon span{
+    font-family: "Graphik Web Regular Regular";
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 14.3px;
+    letter-spacing: 0;
+}
+
+.movie-card:hover {
+    border-color: green;
+    cursor: pointer;
+}
+
+.movie-card:hover .movie-overview {
+    opacity: 1;
+}
+
+.movie-card:hover .movie-title {
+    opacity: 1;
+    transform: translate(-50%, 0);
+}
+
+
+/* ============================= */
+/*   LETS YOU SECTION STYLING */
+/* ============================= */
+
+.features-title{
+    font-family:"Graphik Web Regular Regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: #99aabb;
+    line-height: 20px;
+    letter-spacing: 0.975px;
+    text-transform: uppercase;
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 40px 10%;
+}
+
+.features div{
+    display:inline-flex;
+    background: #445566;
+    padding: 30px;
+    border-radius: 3px;
+    transition: transform 0.3s;
+    align-items: center;
+}
+
+.features div img {
+    width: 10%;
+}
+
+.features div p{
+    font-family:"Graphik Web Regular Regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: #ddeeff;
+    line-height: 21px;
+    letter-spacing: 0;
+    margin-left: 20px;
+}
+
+.features div:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+/* ============================= */
+/*   NEWS & UPCOMING STYLING */
+/* ============================= */
+
+.news-title{
+    font-family:"Graphik Web Regular Regular";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    color: #99aabb;
+    line-height: 13px;
+    letter-spacing: 0.975px;
+    text-transform: uppercase;
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.news-title span{
+    margin-left: 78.5%;
+    font-size: 11px;
+    line-height: 11px;
+    letter-spacing: 0.825px;
+    color: #667788;
+}
+
+.news-title .news-span{
+    margin-left: 75.5%;;
+}
+.news-title span:hover{
+    cursor: pointer;
+    color: #00b3ff;
+}
+
+hr{
+    width: 80%;
+    border: 1px solid #445566;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.news-container {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px 10%;
+}
+
+
+.news-container .news-card {
+    padding: 0;
+}
+
+.news-card img {
+    width: 100%;
+    max-height: 220px;
+    border-radius: 6px;
+    transition: transform 0.3s;
+}
+
+.news-card img:hover {
+    cursor: pointer;
+    transform: scale(1);
+    border: 1px solid #ddeeff;
+}
+
+.news-text{
+    padding: 10px 0;
+}
+
+.news-text a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Graphik Web Semibold Regular";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    letter-spacing: 0;
+}
+
+.news-text a:hover{
+    color: #00b3ff;
+    cursor: pointer;
+}
+
+.news-text p{
+    color: #99aabb;
+    font-family: "Graphik Web Regular Regular";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0;
+}
+
+.news-card iframe:hover {
+    transform: scale(1.05);
+}
