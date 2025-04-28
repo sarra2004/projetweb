@@ -1,89 +1,28 @@
 <!DOCTYPE html>
 <html>
+    
     <head>
-        <head>
-            <title>CineMood-Suggestions</title>
-            <!-- window logo-->
-            <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-            <!-- css links -->
-            <link rel="stylesheet" href="style/style.css"> <!--global-->
-            <link rel="stylesheet" href="style/movies.css">
-            <!-- font awesome for icons -->
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" />
-            <!-- fonts -->
-            <link href="https://db.onlinewebfonts.com/c/105007d99d9df64c50cc24d696d79555?family=Graphik+Web+Regular+Regular" rel="stylesheet">
-            <link href="https://db.onlinewebfonts.com/c/02fb003368979ba04752e4f3b4c4cebd?family=Graphik+Web+Semibold+Regular" rel="stylesheet">
-            <link href="https://db.onlinewebfonts.com/c/171d30888ae4dbce3d0224490887fb87?family=TiemposHeadline-Bold" rel="stylesheet">
-            <link href="https://db.onlinewebfonts.com/c/3b645163096951379a333c390a3d3756?family=Nunito-Bold" rel="stylesheet">
-            <link href="https://db.onlinewebfonts.com/c/1b3f9cb78376a36884f3908f37a42c91?family=Tiempos+Text+Regular" rel="stylesheet">
-        </head>
+        <title>CineMood-Suggestions</title>
+        <!-- window logo-->
+        <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+        <!-- css links -->
+        <link rel="stylesheet" href="/projet_web/style/style.css"> <!--global-->
+        <link rel="stylesheet" href="/projet_web/style/movies.css">
+        <!-- font awesome for icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" />
+        <!-- fonts -->
+        <link href="https://db.onlinewebfonts.com/c/105007d99d9df64c50cc24d696d79555?family=Graphik+Web+Regular+Regular" rel="stylesheet">
+        <link href="https://db.onlinewebfonts.com/c/02fb003368979ba04752e4f3b4c4cebd?family=Graphik+Web+Semibold+Regular" rel="stylesheet">
+        <link href="https://db.onlinewebfonts.com/c/171d30888ae4dbce3d0224490887fb87?family=TiemposHeadline-Bold" rel="stylesheet">
+        <link href="https://db.onlinewebfonts.com/c/3b645163096951379a333c390a3d3756?family=Nunito-Bold" rel="stylesheet">
+        <link href="https://db.onlinewebfonts.com/c/1b3f9cb78376a36884f3908f37a42c91?family=Tiempos+Text+Regular" rel="stylesheet">
     </head>
+
     
     <body>
 
-        <!-- navbar with logo, title, links and button -->
-        <header>
-            <nav class="navbar">
-                <div class="navbar-container">
-                    <img src="images/logo.png" alt="logo" class="icon">
-                    <h1 class="navbar-icon">CineMood</h1>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="choice.html">Mood Selection</a></li>
-                        <li><a href="favorite.html">Favorites</a></li>
-                        <li><a href="movies.html">Movies</a></li>
-                        <li><a href="#"><label for="sign-toggle">Sign In</label></a></li> 
-                        <li><label for="popup-toggle" class="navbar-button">Get Started</label></li>  
-                    </ul>
-                </div>  
-            </nav>
-         </header>
-        
-         <!-- sign up -->
-        <input type="checkbox" id="popup-toggle" class="popup-toggle" hidden>
-        <div id="signup" class="popup">
-            <div class="popup-content">
-                <span>
-                    <h2>Join CineMood</h2>
-                    <label for="popup-toggle" class="close"><img src="images/close.svg" alt="close"></label>
-                </span>
-                <form>
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" required>
-
-                    <label for="username">Username</label>
-                    <input type="text" id="username" required>
-
-                    <label for="password">Password</label>
-                    <input type="password" id="password" required>
-
-                    <label for="password">Confirm Password</label>
-                    <input type="password" id="confirm" required>
-                    
-                    <button type="submit" class="signup-btn">Sign Up</button>
-                </form>
-            </div>
-        </div>
-
-        <!-- sign in -->
-        <input type="checkbox" id="sign-toggle" class="popup-toggle" hidden>
-        <div id="signin" class="popup">
-            <div class="popup-content">
-                <span>
-                    <h2>Your Account</h2>
-                    <label for="sign-toggle" class="close"><img src="images/close.svg" alt="close"></label>
-                </span>
-                <form>
-                    <label for="username">Username</label>
-                    <input type="text" id="username" required>
-
-                    <label for="password">Password</label>
-                    <input type="password" id="password" required>
-                    
-                    <button type="submit" class="signup-btn">Sign In</button>
-                </form>
-            </div>
-        </div>
+        <!-- header + forms  -->
+        <?php include 'header_forms.php'; ?>
 
         <main>
             <!-- hero section with title & paragraph -->
@@ -92,7 +31,7 @@
                 <p class="hero-text">Not sure what to watch? Let your feelings decide! Whether you're in the mood for a heartwarming story, an adrenaline-pumping thriller, or a laugh-out-loud comedy, we’ve curated the best movies to match your emotions.</p>
                 <button class="hero-btn">
                     <img src="images/mood.png" alt="icon" class="mood-icon">
-                    <a href="choice.html">Choose Your Mood</a>
+                    <a href="choice.php">Choose Your Mood</a>
                 </button>
             </div>
 
@@ -586,32 +525,7 @@
             </section>
         </main>
 
-
-        <!-- footer -->
-        <footer class="footer">
-            <div class="footer-container">
-                <div class="footer-brand">
-                    <h3 class="footer-logo">CineMood</h3>
-                    <p>CineMood is your ultimate movie guide based on emotions</p>
-                </div>
-                <div class="footer-links">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
-                <div class="footer-media">
-                    <ul>
-                        <li><a href="#"><img src="images/facebook.svg" alt="facebook" class="footer-icon"></a></li>
-                        <li><a href="#"><img src="images/instagram.svg" alt="instagram" class="footer-icon"></a></li>
-                        <li><a href="#"><img src="images/twitter-alt.svg" alt="x" class="footer-icon"></a></li>
-                        <li><a href="#"><img src="images/tik-tok.svg" alt="tiktok" class="footer-icon"></a></li>
-                        <li><a href="#"><img src="images/youtube.svg" alt="youtube" class="footer-icon"></a></li>
-                    </ul>
-                </div>
-            </div>    
-        </footer>
+       <!-- footer -->
+       <?php include 'footer.php'; ?>
     </body>
 </html>

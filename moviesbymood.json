@@ -1,0 +1,386 @@
+{
+    "happy": [
+      {
+        "title": "Free Guy",
+        "overview": " A bank teller discovers he is actually a background player in an open-world video game, and decides to become the hero of his own story.  Now, in a world where there are no limits, he is determined to be the guy who saves his world his way before it’s too late.",
+        "release_year": 2021,
+        "star_rating": "⭐ 7.1/10",
+        "runtime": "1h 55m",
+        "genres": ["Adventure",  "Comedy", "Sci-Fi", "Fantasy", "Romance"],
+        "video_key": "X2m-08cOAbc"
+      },
+      {
+        "title": "Mrs. Doubtfire",
+        "overview": "After a bitter divorce, an actor disguises himself as a female housekeeper to spend time with his children held in custody by his former wife.",
+        "release_year": 1993,
+        "star_rating": "⭐ 7.1/10",
+        "runtime": "2h 5m",
+        "genres": ["Drama", "Comedy", "High-Concept Comedy"],
+        "video_key": "3euGQ7-brs4"
+      },
+      {
+        "title": "Yes Man",
+        "overview": " Carl, a lonely man with low self-esteem, meets a friend who convinces him to participate in a self-help programme, which challenges him to say yes to everything in life for an entire year.",
+        "release_year": 2008,
+        "star_rating": "⭐ 6.8/10",
+        "runtime": "1h 44m",
+        "genres": ["Feel-Good Romance", "High-Concept Comedy", "Satire",  "Comedy", "Romantic Comedy" ],
+        "video_key": "dDh1l3qVNoY"
+      },
+      {
+        "title": "The Hangover",
+        "overview": " Three buddies wake up from a bachelor party in Las Vegas with no memory of the previous night and the bachelor missing. They must make their way around the city in order to find their friend in time for his wedding.",
+        "release_year": 2011,
+        "star_rating": "⭐ 7.7/10",
+        "runtime": "1h 40m",
+        "genres": ["Raunchy Comedy","Comedy" ],
+        "video_key": "tcdUhdOlz9M"
+      },
+      {
+        "title": "Horrible Bosses",
+        "overview": " Three friends conspire to murder their awful bosses when they realize they are standing in the way of their happiness.",
+        "release_year": 2011,
+        "star_rating": "⭐ 6.9/10",
+        "runtime": "1h 38m",
+        "genres": ["Dark Comedy", "Comedy", "Crime" ],
+        "video_key": "VpUeQV8sdOc"
+      }
+    ],
+
+    "excited": [
+      {
+        "title": "Baby Driver",
+        "overview": " Coerced into working for a crime boss, a young getaway driver must face the music when a doomed heist threatens his life, love, and freedom.",
+        "release_year": 2017,
+        "star_rating": "⭐ 7.5/10",
+        "runtime": "1h 53m",
+        "genres": ["Crime",  "Action", "Drama", "Music"],
+        "video_key": "zTvJJnoWIPk"
+      },
+      {
+        "title": "Bullet Train",
+        "overview": "Ladybug, a professional assassin, is assigned to retrieve a briefcase from a bullet train. Soon, he finds himself battling many other killers who board the same train but with a different objective.",
+        "release_year": 2022,
+        "star_rating": "⭐ 7.3/10",
+        "runtime": "2h 7m",
+        "genres": ["Action", "Comedy", "One-Person Army Action ", "Thriller"],
+        "video_key": "0IOsk2Vlc4o"
+      },
+      {
+        "title": "Mr. Brooks",
+        "overview": " Earl Brooks is a businessman who was recently named Portland's Man of the Year but he is also a serial killer known as The Fingerprint Killer with an alter-ego called Marshall, addicted to killing.",
+        "release_year": 2007,
+        "star_rating": "⭐ 7.3/10",
+        "runtime": "2h",
+        "genres": ["Psychological Thriller ", "Thriller", "Serial Killer", "Crime",  "Drama", "Mystery" ],
+        "video_key": "hXfbVIFc6t4"
+      },
+      {
+        "title": "Crank",
+        "overview": " Chev, an assassin, is injected with a serum that is going to kill him if his adrenaline level drops. In order save himself, Chev must find a cure while keeping his adrenaline levels in check.",
+        "release_year": 2006,
+        "star_rating": "⭐ 6.9/10",
+        "runtime": "1h 28m",
+        "genres": ["Action", "Dark Comedy", "One-Person Army Action ", "Thriller", "Crime"],
+        "video_key": "t2koYVqwzT4"
+      },
+      {
+        "title": "Speed Racer",
+        "overview": " Speed Racer wants to save his family business and be a racing champion. His biggest hurdles are the nefarious owner of Royalton Industries, a race-fixing racket and the mysterious Racer X.",
+        "release_year": 2008,
+        "star_rating": "⭐ 6.1/10",
+        "runtime": "2h 15m",
+        "genres": ["Action", " Comedy", "Drama ", "Family", "Sport", "Adventure", "Sci-Fi", "Car Action"],
+        "video_key": "8V8sLlqJB2w"
+      }
+    ],
+    
+    "romantic": [
+      {
+        "title": "Notting Hill",
+        "overview": " William Thacker is a London bookstore owner whose humdrum existence is thrown into romantic turmoil when famous American actress Anna Scott appears in his shop. A chance encounter over spilled orange juice leads to a kiss that blossoms into a full-blown affair. As the average bloke and glamorous movie star draw closer and closer together, they struggle to reconcile their radically different lifestyles in the name of love.",
+        "release_year": 1999,
+        "star_rating": "⭐ 7.2/10",
+        "runtime": "2h 4m",
+        "genres": ["Drama",  "Comedy", "Romance"],
+        "video_key": "4RI0QvaGoiI"
+      },
+      {
+        "title": "We Live in Time",
+        "overview": "After an unusual encounter, a talented chef and a recently divorcée fall in love and build the home and family they've always dreamed of, until a painful truth puts their love story to the test.",
+        "release_year": 2024,
+        "star_rating": "⭐ 7.0/10",
+        "runtime": "1h 48m",
+        "genres": ["Drama",  "Feel-Good Romance", "Romance"],
+        "video_key": "AuB9FF5qCSA"
+      },
+      {
+        "title": "The Notebook",
+        "overview": " Noah, a poor man, falls in love with Allie who comes from wealth. They are forced to keep passion for each other aside due to societal pressure and a difference in the social stature of their families",
+        "release_year": 2004,
+        "star_rating": "⭐ 7.8/10",
+        "runtime": "2h 3m",
+        "genres": ["Drama",  "Romantic Epic", "Romance"],
+        "video_key": "BjJcYdEOI0k"
+      },
+      {
+        "title": "Moulin Rouge!",
+        "overview": " Christian, an English writer, travels to Paris to join the Bohemian revolution. He visits the city's biggest night club, Moulin Rouge, and falls in love with its star performer and courtesan, Satine.",
+        "release_year": 2001,
+        "star_rating": "⭐ 7.6/10",
+        "runtime": "2h 7m",
+        "genres": ["Period Drama",  "Musical", "Romance", "Drama", "Tragic Romance"],
+        "video_key": "2PpgPxjzbkA"
+      },
+      {
+        "title": "The Idea of You",
+        "overview": " Solène, a 40-year-old single mom, begins an unexpected romance with 24-year-old Hayes Campbell, the lead singer of August Moon, the hottest boy band on the planet.",
+        "release_year": 2024,
+        "star_rating": "⭐ 6.3/10",
+        "runtime": "1h 55m",
+        "genres":  ["Drama",  "Feel-Good Romance", "Romance",  "Comedy", "Romantic Comedy"],
+        "video_key": "pz6qx4n2Ewc"
+      }
+    ],
+    
+    "nostalgic": [
+      {
+        "title": "The Parent Trap",
+        "overview": " Hallie Parker and Annie James are identical twins separated at a young age because of their parents’ divorce. Unknowingly to their parents, the girls are sent to the same summer camp where they meet, discover the truth about themselves, and then plot with each other to switch places.",
+        "release_year": 1998,
+        "star_rating": "⭐ 6.7/10",
+        "runtime": "2h 8m",
+        "genres": ["Adventure",  "Comedy", "Drama ", "Family", "Romance"],
+        "video_key": "PMAhVpgzmRU"
+      },
+      {
+        "title": "Spirited Away",
+        "overview": "Ten-year-old Chihiro and her parents end up at an abandoned amusement park inhabited by supernatural beings. Soon, she learns that she must work to free her parents who have been turned into pigs.",
+        "release_year": 2001,
+        "star_rating": "⭐ 8.6/10",
+        "runtime": "2h 4m",
+        "genres": ["Adventure", "Family", "Fantasy", "Animation", "Coming-of-Age", "Supernatural" ],
+        "video_key": "ByXuk9QqQkk"
+      },
+      {
+        "title": "Aquamarine",
+        "overview": " A mermaid gets stranded at a beach resort but falls in love with a handsome lifeguard. She befriends two local girls and enlists their help to win his heart in exchange for a wish.",
+        "release_year": 2006,
+        "star_rating": "⭐ 5.4/10",
+        "runtime": "1h 50m",
+        "genres": ["Romance", "Fantasy", "Teen Comedy",  "Comedy", "Teen Fantasy", "Family" ],
+        "video_key": "4gkdYYpII6M"
+      },
+      {
+        "title": "Shrek",
+        "overview": "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back.",
+        "release_year": 2001,
+        "star_rating": "⭐ 7.9/10",
+        "runtime": "1h 30m",
+        "genres": ["Feel-Good Romance", "Satire", "Comedy", "Fairy Tale", "Adventure", "Parody", "Animation" ],
+        "video_key": "CwXOrWvPBPk"
+      },
+      {
+        "title": "The Sound of Music",
+        "overview": " Maria, an aspiring nun, is sent as a governess to take care of seven motherless children. Soon her jovial and loving nature tames their hearts and the children become fond of her.",
+        "release_year": 1965,
+        "star_rating": "⭐ 8.1/10",
+        "runtime": "2h 52m",
+        "genres": ["Romance", "Musical", "Drama ", "Family", "Classic Musical", "Period Drama", "Biography"],
+        "video_key": "aMMgcAqOYbI"
+      }
+    ],
+    
+    "geek": [
+      {
+        "title": "Back to the Future",
+        "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents’ first meeting and attracting his mother’s romantic interest. Marty must repair the damage to history by rekindling his parents’ romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
+        "release_year": 1985,
+        "star_rating": "⭐ 8.5/10",
+        "runtime": "1h 56m",
+        "genres": ["Adventure",  "Comedy", "Sci-Fi", "Time Travel"],
+        "video_key": "qvsgGtivCgs"
+      },
+      {
+        "title": "The Matrix",
+        "overview": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+        "release_year": 1999,
+        "star_rating": "⭐ 8.7/10",
+        "runtime": "2h 16m",
+        "genres":  ["Action",  "AI", "Sci-Fi", "CyverPunk", "Dystopian Sci-Fi", "Martial Arts"],
+        "video_key": "vKQi3bBA1y8"
+      },
+      {
+        "title": "Ex Machina",
+        "overview": "A young programmer is selected to participate in a ground-breaking experiment in synthetic intelligence by evaluating the human qualities of a highly advanced humanoid A.I",
+        "release_year": 2014,
+        "star_rating": "⭐ 7.7/10",
+        "runtime": "1h 48m",
+        "genres": ["Thriller",  "AI", "Sci-Fi", "Psychological Thriller ", "Drama "],
+        "video_key": "EoQuVnKhxaM"
+      },
+      {
+        "title": "Good Will Hunting",
+        "overview": " Will Hunting, a janitor at MIT, is a mathematical genius. But circumstances force him to join therapeutic sessions, where he confronts his past, re-evaluates his present and thinks of his future.",
+        "release_year": 1997,
+        "star_rating": "⭐ 8.3/10",
+        "runtime": "2h 6m",
+        "genres":["Coming-of-Age", "Romance", "Psychological Drama ", "Drama "],
+        "video_key": "ReIJ1lbL-Q8"
+      },
+      {
+        "title": "Transcendence",
+        "overview": " Will's desperate wife uploads his consciousness into a quantum computer to save him. He soon begins making groundbreaking discoveries but also displays signs of a dark and hidden motive.",
+        "release_year": 2014,
+        "star_rating": "⭐ 6.2/10",
+        "runtime": "1h 59m",
+        "genres":  ["Thriller",  "AI", "Sci-Fi", "Drama "],
+        "video_key": "VCTen3-B8GU"
+      }
+    ],
+    
+    "sad": [
+      {
+        "title": "The Fault in Our Stars",
+        "overview": " Despite the tumor-shrinking medical miracle that has bought her a few years, Hazel has never been anything but terminal, her final chapter inscribed upon diagnosis. But when a patient named Augustus Waters suddenly appears at Cancer Kid Support Group, Hazel’s story is about to be completely rewritten.",
+        "release_year": 2014,
+        "star_rating": "⭐ 7.6/10",
+        "runtime": "2h 6m",
+        "genres": ["Tragedy",  "Drama ", "Romance"],
+        "video_key": "9ItBvH5J6ss"
+      },
+      {
+        "title": "Aftersun",
+        "overview": "Twenty years after their last holiday at a fading vacation resort, Sophie reflects on the rare time spent with her loving and idealistic father Calum. At 11-years-old, as the world of adolescence creeps into Sophie's view, Calum struggles under the weight of life outside of fatherhood. Sophie's recollections become a powerful and heartrending portrait of their relationship, as she tries to reconcile the father she knew with the man she didn't.",
+        "release_year": 2022,
+        "star_rating": "⭐ 7.6/10",
+        "runtime": "1h 42m",
+        "genres": ["Teen Drama", "Drama ", "Coming-of-Age"],
+        "video_key": "vXKcWRu8K_U"
+      },
+      {
+        "title": "Amour",
+        "overview": " Georges and Anne are an octogenarian couple. They are cultivated, retired music teachers. Their daughter, also a musician, lives in Britain with her family. One day, Anne has a stroke, and the couple's bond of love is severely tested.",
+        "release_year": 2012,
+        "star_rating": "⭐ 7.9/10",
+        "runtime": "2h 7m",
+        "genres": ["Tragedy",  "Drama "],
+        "video_key": "10yi4KaJfAU"
+      },
+      {
+        "title": "Marriage Story",
+        "overview": " A stage director and his actor wife struggle through a grueling divorce that pushes them to their personal and creative extremes. Noah Baumbach's incisive and compassionate look at a marriage breaking up and a family staying together.",
+        "release_year": 2017,
+        "star_rating": "⭐ 7.9/10",
+        "runtime": "2h 17m",
+        "genres": ["Drama ", "Romance" ],
+        "video_key": "BHi-a1n8t7M"
+      },
+      {
+        "title": "My Sister's Keeper",
+        "overview": " Anna Fitzgerald looks to earn medical emancipation from her parents who until now have relied on their youngest child to help their leukemia-stricken daughter Kate remain alive.",
+        "release_year": 2009,
+        "star_rating": "⭐ 7.3/10",
+        "runtime": "1h 49m",
+        "genres": ["Drama ", "Medical Drama", "Family" ],
+        "video_key": "shIgnez2Qxg"
+      }
+    ],
+    
+    "angry": [
+      {
+        "title": "Oldboy",
+        "overview": "  With no clue how he came to be imprisoned, drugged and tortured for 15 years, a desperate man seeks revenge on his captors.",
+        "release_year": 2003,
+        "star_rating": "⭐ 8.3/10",
+        "runtime": "2h",
+        "genres": ["Drama ",  "Action", "Mystery", "Thriller"],
+        "video_key": "hBNBpNcuQHI"
+      },
+      {
+        "title": "Promising Young Woman",
+        "overview": "Cassie, a young woman, takes it upon herself to seek revenge for her best friend, Nina, who committed suicide after being raped by their classmate, Al Monroe.",
+        "release_year": 2020,
+        "star_rating": "⭐ 7.5/10",
+        "runtime": "1h 53m",
+        "genres":  ["Drama ",  "Crime", "Mystery", "Thriller", "Tragedy", "Psychological Thriller ", "Suspense Mystery"],
+        "video_key": "7i5kiFDunk8"
+      },
+      {
+        "title": "The Beekeeper",
+        "overview": " A kind-hearted landlady commits suicide after falling victim to a phishing scam, leading former 'Beekeeper' operative Adam Clay to set out on a brutal campaign for revenge upon those responsible.",
+        "release_year": 2024,
+        "star_rating": "⭐ 6.3/10",
+        "runtime": "1h 45m",
+        "genres": ["Action",  "Crime", "Conspiracy Thriller", "Thriller", "Political Thriller", "One-Person Army Action "],
+        "video_key": "SzINZZ6iqxY"
+      },
+      {
+        "title": "Mayhem",
+        "overview": " A virus spreads through an office complex, causing white-collar workers to act out their worst impulses.",
+        "release_year": 2017,
+        "star_rating": "⭐ 6.4/10",
+        "runtime": "1h 26m",
+        "genres": ["Dark Comedy","Comedy", "Action", "Splatter Horror", "Horror", "Thriller" ],
+        "video_key": "PmcqVmRPgvk"
+      },
+      {
+        "title": "Fight Club",
+        "overview": " Unhappy with his capitalistic lifestyle, a white-collared insomniac forms an underground fight club with Tyler, a careless soap salesman. Soon, their venture spirals down into something sinister.",
+        "release_year": 1999,
+        "star_rating": "⭐ 8.8/10",
+        "runtime": "2h 19m",
+        "genres":["Psychological Drama ",  "Drama ", "Workplace Drama", "Thriller", "Psychological Thriller ", "Crime"],
+        "video_key": "dfeUzm6KF4g"
+      }
+    ],
+    
+    "reflective": [
+      {
+        "title": "A Ghost Story",
+        "overview": " Recently deceased, a white-sheeted ghost returns to his suburban home to console his bereft wife,only to find that in his spectral state he has become unstuck in time, forced to watch passively as the life he knew and the woman he loves slowly slip away.",
+        "release_year": 2017,
+        "star_rating": "⭐ 6.8/10",
+        "runtime": "1h 32m",
+        "genres": ["Drama ",  "Mystery", "Fantasy", "Romance"],
+        "video_key": "0Vb0F_CN83E"
+      },
+      {
+        "title": "Anatomy of a Fall",
+        "overview": "A woman is suspected of murder after her husband's death; their half-blind son faces a moral dilemma as the main witness.",
+        "release_year": 2023,
+        "star_rating": "⭐ 7.6/10",
+        "runtime": "2h 31m",
+        "genres": ["Psychological Drama ",  "Drama ", "Legal Drama", "Thriller", "Psychological Thriller ", "Crime"],
+        "video_key": "FUXawkH-ONM"
+      },
+      {
+        "title": "Take Shelter",
+        "overview": " Plagued by a series of apocalyptic visions, a young husband and father questions whether to shelter his family from a coming storm, or from himself.",
+        "release_year": 2011,
+        "star_rating": "⭐ 7.3/10",
+        "runtime": "2h ",
+        "genres": ["Psychological Drama ",  "Drama ", "Legal Drama", "Thriller", "Psychological Thriller ", "Workplace Drama"],
+        "video_key": "hUraDx3oFVg"
+      },
+      {
+        "title": "The Truman Show",
+        "overview": " An insurance salesman begins to suspect that his whole life is actually some sort of reality TV show.",
+        "release_year": 1998,
+        "star_rating": "⭐ 8.2/10",
+        "runtime": "1h 43m",
+        "genres": ["High-Concept Comedy","Comedy", "Drama ", "Satire", "Psychological Drama ", "Dark Comedy"],
+        "video_key": "dlnmQbPGuls"
+      },
+      {
+        "title": "Inception",
+        "overview": " A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
+        "release_year": 2010,
+        "star_rating": "⭐ 8.8/10",
+        "runtime": "2h 28m",
+        "genres": ["Thriller", "Action", "Adventure", "Sci-Fi", "Psychological Thriller ", "Epic"],
+        "video_key": "YoHD9XEInc0"
+      }
+    ]
+  }
+  

@@ -52,7 +52,7 @@ h1{
 .choose{
     display: none;
 }
-/* delete buttons when radio is checked */
+/* effacer les boutons quand le radio est checked */
 #mood:checked ~ .selection,
 #effect:checked ~ .selection {
     display: none;
@@ -70,7 +70,7 @@ h1{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Show relevant section when radio is checked */
+/* affihcer les sections relevant quand le bouton est checked  */
 #mood:checked ~ #mood-options {
     display: block;
 }

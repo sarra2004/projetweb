@@ -3,7 +3,7 @@
 /* ============================= */
 
 .hero-section {
-    background: url('C:/Users/Sarra/Desktop/L2/semester2/dev web/projet/images/backimg.jpg') no-repeat center center/cover;
+    background: url('../images/backimg.jpg') no-repeat center center/cover;
     height: 100vh;  
     display: flex;
     flex-direction: column;
@@ -58,6 +58,7 @@
     margin-bottom: 50px;
     border-color: #00b3ff;
     transition: all 0.3s ease-in-out;
+    margin-right: 50px;
 }
 
 .hero-button a{
@@ -79,10 +80,10 @@
 /* ============================= */
 
 .movie-section {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
     width: 100%;
     gap: 10px;
 }
@@ -93,6 +94,8 @@
     border: 3px solid transparent;
     border-radius: 10px;
     transition: border-color 0.3s ease-in-out;
+    top: 30px;
+    margin-bottom: 80px;
 }
 
 .movie-card .movie-title {
@@ -125,7 +128,7 @@
     transform: translateX(-50%);
     border-width: 10px;
     border-style: solid ;
-    border-color:  #445566 transparent transparent transparent; /* Create the triangle */
+    border-color:  #445566 transparent transparent transparent; /* Creation du triangle */
 }
 
 .movie-card img{
@@ -249,11 +252,11 @@
 
 .news-title{
     font-family:"Graphik Web Regular Regular";
-    font-size: 13px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     color: #99aabb;
-    line-height: 13px;
+    line-height: 20px;
     letter-spacing: 0.975px;
     text-transform: uppercase;
     margin-left: 10%;
@@ -262,15 +265,15 @@
 }
 
 .news-title span{
-    margin-left: 78.5%;
-    font-size: 11px;
+    margin-left: 77%;
+    font-size: 13px;
     line-height: 11px;
     letter-spacing: 0.825px;
     color: #667788;
 }
 
 .news-title .news-span{
-    margin-left: 75.5%;;
+    margin-left: 74%;;
 }
 .news-title span:hover{
     cursor: pointer;

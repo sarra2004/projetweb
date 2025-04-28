@@ -2,11 +2,11 @@
 <html>
     <head>
         <title>CineMood</title>
-        <!-- window logo-->
+        <!-- window logo -->
         <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
         <!-- css links -->
-        <link rel="stylesheet" href="style/style.css"> <!--global-->
-        <link rel="stylesheet" href="style/index.css">
+        <link rel="stylesheet" href="/projet_web/style/style.css">
+        <link rel="stylesheet" href="/projet_web/style/index.css">
         <!-- font awesome for icons -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" />
         <!-- fonts -->
@@ -18,83 +18,24 @@
     </head>
 
     <body>
-        <!-- navbar with logo, title, links and button -->
-         <header>
-            <nav class="navbar">
-                <div class="navbar-container">
-                    <img src="images/logo.png" alt="logo" class="icon">
-                    <h1 class="navbar-icon">CineMood</h1>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="choice.html">Mood Selection</a></li>
-                        <li><a href="favorite.html">Favorites</a></li>
-                        <li><a href="movies.html">Movies</a></li>
-                        <li><a href="#"><label for="sign-toggle">Sign In</label></a></li> 
-                        <li><label for="popup-toggle" class="navbar-button">Get Started</label></li>  
-                    </ul>
-                </div>  
-            </nav>
-         </header>
-        
-         <!-- sign up -->
-        <input type="checkbox" id="popup-toggle" class="popup-toggle" hidden>
-        <div id="signup" class="popup">
-            <div class="popup-content">
-                <span>
-                    <h2>Join CineMood</h2>
-                    <label for="popup-toggle" class="close"><img src="images/close.svg" alt="close"></label>
-                </span>
-                <form>
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" required>
 
-                    <label for="username">Username</label>
-                    <input type="text" id="username" required>
+        <!-- header + forms  -->
+        <?php include 'header_forms.php'; ?>
 
-                    <label for="password">Password</label>
-                    <input type="password" id="password" required>
-
-                    <label for="password">Confirm Password</label>
-                    <input type="password" id="confirm" required>
-                    
-                    <button type="submit" class="signup-btn">Sign Up</button>
-                </form>
-            </div>
-        </div>
-
-        <!-- sign in -->
-        <input type="checkbox" id="sign-toggle" class="popup-toggle" hidden>
-        <div id="signin" class="popup">
-            <div class="popup-content">
-                <span>
-                    <h2>Your Account</h2>
-                    <label for="sign-toggle" class="close"><img src="images/close.svg" alt="close"></label>
-                </span>
-                <form>
-                    <label for="username">Username</label>
-                    <input type="text" id="username" required>
-
-                    <label for="password">Password</label>
-                    <input type="password" id="password" required>
-                    
-                    <button type="submit" class="signup-btn">Sign In</button>
-                </form>
-            </div>
-        </div>
-
-
-         <main>
+        <main>
             <!-- hero section with bg img, title, subtext and button -->
             <section class="hero-section" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" > 
                 <div class="hero-text">
                     <h1 class="title">Find the perfect mood for your movie</h1>
                     <p class="subtext">Let your emotions guide you. Whether you're looking for comfort, inspiration, or excitement, CineMood helps you discover the perfect film tailored to your feelings.</p>
-                    <button class="hero-button"><a href="movies.html">Start exploring</a></button>
+                    <button class="hero-button"><a href="movies.php">Start exploring</a></button>
                 </div>
             </section>
 
             <!-- some movies with poster, name views and favorite section -->
-             <section class="movie-section">
+            <h3 class="news-title">Popular movies</h3>
+            <hr>
+            <section class="movie-section">
                 <div class="movie-card" data-aos="fade-in" data-aos-duration="300" data-aos-easing="ease-in-out">
                     <div class="movie-title">Oppenheimer (2023)</div>
                     <img src="images/Oppenheimer_(film).jpg" alt="poster" class="movie-poster">
@@ -185,10 +126,11 @@
                     </div>
                     </div>
                 </div>
-             </section>
+            </section>
             
             <!-- lets you section -->
             <h3 class="features-title">CineMood lets you ...</h3>
+            <hr>
             <section class="features" data-aos="fade-up" data-aos-duration="1000">
                 <div >
                     <img src="images/mood.svg" alt="mood" class="features-img">
@@ -219,10 +161,10 @@
                 </div>
             </section>
 
-            <!-- recent news section fiha oscar, cannes, james bond -->
-             <h3 class="news-title">Recent News <span>more</span></h3>
-             <hr>
-             <section class="news">
+            <!-- recent news section contains oscar, cannes, james bond -->
+            <h3 class="news-title">Recent News <span>more</span></h3>
+            <hr>
+            <section class="news">
                 <div class="news-container">
                     <div class="news-card" data-aos="flip-left" data-aos-duration="1000">
                         <a href="https://abc.com/news/8d96bb37-bd59-4c28-a470-46f244f63b3b/category/3590742" target="_blank"><img src="images/oscar.webp" alt="oscar" class="news-img"></a>
@@ -246,12 +188,12 @@
                         </div>
                     </div>
                 </div>
-             </section>
+            </section>
 
-             <!-- upcoming movies section -->
-             <h3 class="news-title">Upcoming movies <span class="news-span">more</span></h3>
-             <hr>
-             <section class="news">
+            <!-- upcoming movies section -->
+            <h3 class="news-title">Upcoming movies <span class="news-span">more</span></h3>
+            <hr>
+            <section class="news">
                 <div class="news-container">
                     <div class="news-card" data-aos="flip-left" data-aos-duration="1000">
                         <iframe width="400" height="250" src="https://www.youtube.com/embed/cbC1CQsJp94?si=jcTuDulIQ9hWbUQL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -296,39 +238,13 @@
                         </div>
                     </div>
                 </div>
-             </section>
+            </section>
 
-         </main>
-        
+        </main>
 
-         <!-- footer -->
-        <footer class="footer">
-            <div class="footer-container">
-                <div class="footer-brand">
-                    <h3 class="footer-logo">CineMood</h3>
-                    <p>CineMood is your ultimate movie guide based on emotions</p>
-                </div>
-                <div class="footer-links">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
-                <div class="footer-media">
-                    <ul>
-                        <li><a href="#"><img src="images/facebook.svg" alt="facebook" class="footer-icon"></a></li>
-                        <li><a href="#"><img src="images/instagram.svg" alt="instagram" class="footer-icon"></a></li>
-                        <li><a href="#"><img src="images/twitter-alt.svg" alt="x" class="footer-icon"></a></li>
-                        <li><a href="#"><img src="images/tik-tok.svg" alt="tiktok" class="footer-icon"></a></li>
-                        <li><a href="#"><img src="images/youtube.svg" alt="youtube" class="footer-icon"></a></li>
-                    </ul>
-                </div>
-            </div>    
-        </footer>
+        <?php include 'footer.php'; ?>
 
-        <!-- scroll animation -->
+        <!-- aos animations -->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
             AOS.init();
